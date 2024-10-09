@@ -1,7 +1,7 @@
 # AI Calorie Counter
 <div style="display: flex; flex-direction: row;">
     <img src="app/icon.png" alt="Screenshot 1" style="width: 10%; margin-right: 10px;">
-    <strong>An AI app to easily track calories and exercise by taking a photo of your meal or describing your physical activity
+    <strong>An AI app to easily track calories and exercise by taking a photo of your meal or describing your physical activity</strong>
 </div>
 
 <br />
