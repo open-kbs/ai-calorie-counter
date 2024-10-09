@@ -1,10 +1,10 @@
 # AI Calorie Counter
-<table style="border-collapse: collapse; width: 100%;">
-  <tr style="border: none;">
-    <td style="border: none; vertical-align: top;">
+<table>
+  <tr>
+    <td>
       <img src="app/icon.png" alt="App Icon" style="width: 100px; margin-right: 10px;">
     </td>
-    <td style="border: none; vertical-align: top;">
+    <td>
       <strong>An AI app to easily track calories and exercise by taking a photo of your meal or describing your physical activity</strong>
     </td>
   </tr>
