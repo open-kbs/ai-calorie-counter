@@ -25,8 +25,12 @@
 
 ### Install from OpenKBS AI Cloud
 
-You can easily install the AI Calorie Counter app from the OpenKBS AI Cloud by visiting [Install Calorie Counter](https://openkbs.com/apps/calorie-counter/).
+To install the AI Calorie Counter app, visit [Install Calorie Counter](https://openkbs.com/apps/calorie-counter/) on your mobile phone. For quick access, add it to your Home Screen:
 
+1. Open the link in your mobile browser.
+2. Select "Add to Home screen" from the browser menu.
+
+This will place the app on your home screen for easy access.
 ### Install from CLI
 
 To install the AI Calorie Counter app via the command line interface (CLI), follow these steps:
@@ -58,7 +62,7 @@ You need to have the OpenKBS CLI installed on your system. You can install it us
       $Env:Path += ";$Env:USERPROFILE\Downloads"
       ```
 
-#### Step 2: Fork the Repository
+#### Step 2: Clone the Repository
 
 Clone the repository to your local machine:
 
@@ -69,7 +73,7 @@ cd ai-calorie-counter
 
 #### Step 3: Deploy the Application to the Cloud
 
-Deploy the application using the OpenKBS CLI:
+Deploy your application using the OpenKBS CLI:
 
 ```bash
 openkbs push
@@ -81,10 +85,10 @@ Once the deployment is complete, you will receive a URL for your app: `https://{
 
 Install the AI Calorie Counter as a Progressive Web App (PWA) for easy access:
 
-1. **Log in to [OpenKBS](https://openkbs.com):** Use your mobile browser.
-2. **Go to "My Apps":** Find the AI Calorie Counter.
-3. **Open the App:** Click to launch it.
-4. **Add to Home Screen:** Select "Add to Home screen" from the Mobile menu.
+1. Log in to [OpenKBS](https://openkbs.com): Use your mobile browser.
+2. Go to "My Apps": Find the AI Calorie Counter.
+3. Open the App: Click to launch it.
+4. Add to Home Screen: Select "Add to Home screen" from the Mobile menu.
 
 This will place the app on your home screen for quick access.
 
