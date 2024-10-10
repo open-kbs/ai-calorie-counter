@@ -1,4 +1,5 @@
 {
+  "kbId": "1wvaap1nzohn",
   "chatVendor": "openai",
   "kbDescription": "Easily track calories and exercise by snapping a photo of your meal or describing your physical activity to AI.",
   "kbTitle": "Calorie Counter",
@@ -181,18 +182,15 @@
       ]
     }
   },
-
   "appId": "28172dg12t7s",
   "category": "health",
   "slug": "calorie-counter",
-
   "optionalServices": [
     {
       "interface": "speech-to-text",
       "type": "chat-input-tool"
     }
   ],
-
   "requiredServices": [
     {
       "interface": "text-generation",
