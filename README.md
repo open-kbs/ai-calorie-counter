@@ -31,7 +31,7 @@ To install the AI Calorie Counter app, visit [Install Calorie Counter](https://o
 2. Select "Add to Home screen" from the browser menu.
 
 This will place the app on your home screen for easy access.
-### Install from CLI
+### Install with CLI
 
 To install the AI Calorie Counter app via the command line interface (CLI), follow these steps:
 
