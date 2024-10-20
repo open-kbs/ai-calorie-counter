@@ -23,7 +23,7 @@
 
 ## Installation Guide
 
-### Install from OpenKBS AI Cloud
+### Install from OpenKBS Cloud
 
 To install the AI Calorie Counter app, visit [Install Calorie Counter](https://openkbs.com/apps/calorie-counter/) on your mobile phone. For quick access, add it to your Home Screen:
 
