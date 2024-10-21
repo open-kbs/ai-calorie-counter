@@ -181,6 +181,7 @@
       ]
     }
   },
+  "userId": "public",
   "appId": "28172dg12t7s",
   "category": "health",
   "slug": "calorie-counter",
