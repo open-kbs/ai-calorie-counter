@@ -1,0 +1,38 @@
+{
+  "name": "ai-calorie-counter",
+  "version": "0.0.1",
+  "description": "OpenKBS Application",
+  "main": "index.js",
+  "keywords": [],
+  "author": "your name",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npm install openkbs-ui@0 && npm install openkbs-chat@0 && npm install openkbs-ai-server@0 && npm install openkbs-code@0",
+    "start": "node index.js",
+    "chat": "cd node_modules/openkbs-chat && npm start",
+    "code": "KB_DIR=$(pwd) && cd node_modules/openkbs-code && KB_DIR=$KB_DIR npm start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.16.1",
+    "@mui/material": "^5.16.1",
+    "@vercel/ncc": "^0.38.1",
+    "chalk": "^5.3.0",
+    "cpy": "^11.1.0",
+    "express": "^4.21.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.10.0",
+    "nodemon": "^3.1.4",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}

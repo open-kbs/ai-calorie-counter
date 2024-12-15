@@ -1,0 +1,204 @@
+{
+  "chatVendor": "bedrock",
+  "kbDescription": "Easily track calories and exercise by snapping a photo of your meal or describing your physical activity in AI chat.",
+  "kbTitle": "Calorie Counter",
+  "model": "us.anthropic.claude-3-5-sonnet-20241022-v2:0",
+  "inputTools": [],
+  "embeddingModel": "none",
+  "embeddingDimension": "none",
+  "searchEngine": "IndexedDB",
+  "itemTypes": {
+    "activity": {
+      "embeddingTemplate": "${item.name} ",
+      "attributes": [
+        {
+          "label": "Name",
+          "placeholder": "Name",
+          "encrypted": true,
+          "attrName": "name",
+          "attrType": "keyword1"
+        },
+        {
+          "unit": "cals",
+          "label": "Calories Burned",
+          "placeholder": "Calories Burned",
+          "encrypted": true,
+          "attrName": "caloriesBurned",
+          "attrType": "float1"
+        },
+        {
+          "unit": "minutes",
+          "label": "Duration In Minutes",
+          "placeholder": "Duration In Minutes",
+          "encrypted": true,
+          "attrName": "durationInMinutes",
+          "attrType": "float2"
+        }
+      ]
+    },
+    "food": {
+      "embeddingTemplate": "${item.name} ",
+      "attributes": [
+        {
+          "label": "Name",
+          "placeholder": "Name",
+          "encrypted": true,
+          "attrName": "name",
+          "attrType": "text1"
+        },
+        {
+          "unit": "g",
+          "label": "Weight",
+          "placeholder": "Weight",
+          "encrypted": true,
+          "attrName": "weight",
+          "attrType": "float1"
+        },
+        {
+          "unit": "cals",
+          "label": "Calories",
+          "placeholder": "Calories",
+          "encrypted": true,
+          "attrName": "calories",
+          "attrType": "float2"
+        },
+        {
+          "unit": "g",
+          "label": "Carbs",
+          "placeholder": "Carbs",
+          "encrypted": true,
+          "attrName": "carbs",
+          "attrType": "float3"
+        },
+        {
+          "unit": "g",
+          "label": "Proteins",
+          "placeholder": "Proteins",
+          "encrypted": true,
+          "attrName": "proteins",
+          "attrType": "float4"
+        },
+        {
+          "unit": "g",
+          "label": "Fats",
+          "placeholder": "Fats",
+          "encrypted": true,
+          "attrName": "fats",
+          "attrType": "float5"
+        },
+        {
+          "unit": "g",
+          "label": "Water",
+          "placeholder": "Water",
+          "encrypted": true,
+          "attrName": "water",
+          "attrType": "float6"
+        }
+      ]
+    },
+    "profile": {
+      "embeddingTemplate": "${item.id} ${item.gender} ",
+      "attributes": [
+        {
+          "unit": "",
+          "label": "id",
+          "placeholder": "id",
+          "encrypted": false,
+          "attrName": "id",
+          "attrType": "itemId"
+        },
+        {
+          "unit": "",
+          "label": "Gender",
+          "placeholder": "Gender",
+          "encrypted": true,
+          "attrName": "gender",
+          "attrType": "keyword1"
+        },
+        {
+          "unit": "years",
+          "label": "Age",
+          "placeholder": "years",
+          "encrypted": true,
+          "attrName": "age",
+          "attrType": "float1"
+        },
+        {
+          "unit": "kg",
+          "label": "Weight",
+          "placeholder": "kilograms",
+          "encrypted": true,
+          "attrName": "weight",
+          "attrType": "float2"
+        },
+        {
+          "unit": "cm",
+          "label": "Height",
+          "placeholder": "centimeters",
+          "encrypted": true,
+          "attrName": "height",
+          "attrType": "float3"
+        },
+        {
+          "unit": "kcal",
+          "label": "Calorie Deficit",
+          "placeholder": "Calorie Deficit",
+          "encrypted": true,
+          "attrName": "calorieDeficit",
+          "attrType": "float4"
+        },
+        {
+          "unit": "%",
+          "label": "Carb Percentage",
+          "placeholder": "Carb Percentage",
+          "encrypted": true,
+          "attrName": "carbPercentage",
+          "attrType": "float5"
+        },
+        {
+          "unit": "%",
+          "label": "Protein Percentage",
+          "placeholder": "Protein Percentage",
+          "encrypted": true,
+          "attrName": "proteinPercentage",
+          "attrType": "float6"
+        },
+        {
+          "unit": "%",
+          "label": "Fat Percentage",
+          "placeholder": "Fat Percentage",
+          "encrypted": true,
+          "attrName": "fatPercentage",
+          "attrType": "float7"
+        },
+        {
+          "label": "Goals",
+          "placeholder": "Goals",
+          "encrypted": true,
+          "attrName": "goals",
+          "attrType": "text1"
+        }
+      ]
+    }
+  },
+  "userId": "public",
+  "appId": "28172dg12t7s",
+  "active": true,
+  "category": "health",
+  "slug": "calorie-counter",
+  "optionalServices": [
+    {
+      "interface": "speech-to-text",
+      "type": "chat-input-tool"
+    }
+  ],
+  "requiredServices": [
+    {
+      "interface": "text-generation",
+      "type": "main-chat-model"
+    },
+    {
+      "interface": "items-search-engine"
+    }
+  ]
+}

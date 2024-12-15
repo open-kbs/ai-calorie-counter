@@ -1,0 +1,4 @@
+{
+  "watch": ["./src/Frontend/contentRender.js"],
+  "exec": "./node_modules/.bin/webpack --config webpack.contentRender.config.js"
+}
