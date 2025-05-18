@@ -2,7 +2,7 @@
   "chatVendor": "bedrock",
   "kbDescription": "Easily track calories and exercise by snapping a photo of your meal or describing your physical activity in AI chat.",
   "kbTitle": "Calorie Counter",
-  "model": "us.anthropic.claude-3-5-sonnet-20241022-v2:0",
+  "model": "claude-3-7-sonnet-20250219",
   "inputTools": [],
   "embeddingModel": "none",
   "embeddingDimension": "none",
