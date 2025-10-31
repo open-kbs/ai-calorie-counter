@@ -2,7 +2,7 @@
   "chatVendor": "anthropic",
   "kbDescription": "Easily track calories and exercise by snapping a photo of your meal or describing your physical activity in AI chat.",
   "kbTitle": "Calorie Counter",
-  "model": "claude-3-7-sonnet-20250219",
+  "model": "claude-sonnet-4-5-20250929",
   "inputTools": [],
   "embeddingModel": "none",
   "embeddingDimension": "none",
